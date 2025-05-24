@@ -1,28 +1,93 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Atelier Sentinelle</title>
-  <link rel="stylesheet" href="style/main.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atelier Sentinelle - Sécurité Web</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #222;
+    }
+    header {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #0056b3;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #f1f1f1;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #555;
+    }
+    h2 {
+      color: #007BFF;
+    }
+    .contact a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Atelier Sentinelle</h1>
-    <nav>
-      <a href="index.html">Accueil</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <p>Audit de sécurité web pour TPE et PME</p>
   </header>
-  <main>
-    <section>
-      <h2>Audit de sécurité web pour PME</h2>
-      <p>Nous testons votre site pour identifier les failles exploitables par des attaquants.</p>
-      <a class="button" href="contact.html">Demander un audit</a>
-    </section>
-  </main>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="#mentions">Mentions légales</a>
+  </nav>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <ul>
+      <li>Audit de sécurité WordPress / WooCommerce</li>
+      <li>Analyse de vulnérabilités sur sites PHP</li>
+      <li>Rapports clairs et professionnels avec recommandations</li>
+      <li>Offres ponctuelles ou abonnements mensuels</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Vous souhaitez un audit ou avez une question ?</p>
+    <p>Email : <a href="mailto:contact@ateliersentinelle.fr">contact@ateliersentinelle.fr</a></p>
+  </section>
+
+  <section id="mentions">
+    <h2>Mentions légales</h2>
+    <p>Micro-entreprise Atelier Sentinelle<br>
+    SIREN : [à compléter]<br>
+    Adresse : [à compléter]<br>
+    Directeur de la publication : [ton prénom ou nom pro]<br>
+    Hébergement : GitHub Pages</p>
+  </section>
+
   <footer>
-    <p>© 2025 Atelier Sentinelle — Tous droits réservés</p>
+    <p>&copy; 2025 Atelier Sentinelle - Tous droits réservés</p>
   </footer>
 </body>
 </html>
